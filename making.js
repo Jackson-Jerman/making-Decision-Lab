@@ -10,7 +10,7 @@
 //CODE HERE
 let lovesCode  = true
 
-if (lovesCode == true){
+if (lovesCode === true){
   console.log("I love to code!")
 }
 else{
@@ -44,7 +44,7 @@ if (amysAge > brittanisAge){
 */
 
 //CODE HERE
-if (amysBirthYear == brittanisBirthYear){
+if (amysBirthYear === brittanisBirthYear){
   console.log("They were born in the same year.")
 }
 else{
@@ -61,15 +61,15 @@ let rain = true;
 */
 
 //CODE HERE
-if (temperature >= 80 && rain == true){
+if (temperature >= 80 && rain === true){
   console.log("Wear a t-shirt and take an umbrella.")
-} else if (temperature > 60 && temperature < 80 && rain == true ){
+} else if (temperature > 60 && temperature < 80 && rain === true ){
   console.log("Wear a rain jacket.")
-} else if (temperature <= 60 && rain == true){
+} else if (temperature <= 60 && rain === true){
   console.log("Wear a jacket and carry an umbrella")
-} else if (temperature >= 80 && rain == false){
+} else if (temperature >= 80 && rain === false){
   console.log("Wear a t-shirt and shorts")
-} else if (temperature > 60 && temperature < 80 && rain == false){
+} else if (temperature > 60 && temperature < 80 && rain === false){
   console.log("Wear a long sleeve shirt and pants.")
 } else {
   console.log("Wear a puffy jacket and pants")
@@ -143,7 +143,7 @@ console.log(changeMyMind)
 
 //CODE HERE
  
-if (changeMyMind != true){
+if (changeMyMind !== true){
   changeMyMind = true
 }
 console.log(changeMyMind)
