@@ -143,11 +143,8 @@ if (changeMyMind == true){
  
 if (changeMyMind != true){
   changeMyMind = true
-  console.log(changeMyMind)
-}else {
-  changeMyMind = false
-  console.log(changeMyMind)
 }
+console.log(changeMyMind)
 ////////// ADVANCED PROBLEMS //////////
 
 ////////// PROBLEM 11 //////////
