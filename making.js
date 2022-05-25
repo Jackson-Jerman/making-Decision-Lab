@@ -82,7 +82,7 @@ if (temperature >= 80 && rain === true){
 */
 
 //CODE HERE
-for (i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
   console.log("Hello")
 }
 ////////// PROBLEM 6 //////////
@@ -92,7 +92,7 @@ for (i = 0; i < 10; i++) {
 */
 
 //CODE HERE
-for (i = 1; i < 11; i++) {
+for (let i = 1; i < 11; i++) {
   console.log(i)
 }
 ////////// PROBLEM 7 //////////
@@ -102,7 +102,7 @@ for (i = 1; i < 11; i++) {
 */
 
 //CODE HERE
-for (i = 10; i > -1; i--) {
+for (let i = 10; i > -1; i--) {
   console.log(i)
 }
 ////////// PROBLEM 8 //////////
