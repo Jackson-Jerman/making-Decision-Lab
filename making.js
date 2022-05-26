@@ -143,9 +143,8 @@ console.log(changeMyMind)
 
 //CODE HERE
  
-if (changeMyMind !== true){
-  changeMyMind = true
-}
+changeMyMind = !changeMyMind;
+
 console.log(changeMyMind)
 ////////// ADVANCED PROBLEMS //////////
 
